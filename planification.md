@@ -1,4 +1,5 @@
 📅 Planification du Projet : ParaCare – Parapharmacie en Ligne
+
 🧭 1. Méthodologie adoptée
 
 Le développement de ce projet ParaCare – Parapharmacie en Ligne sera réalisé selon une approche structurée basée sur les phases classiques du cycle de développement d’une application web : analyse, conception, développement, tests et finalisation.
