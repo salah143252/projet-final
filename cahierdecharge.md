@@ -1,16 +1,15 @@
-📘 Cahier des Charges : Application de Parapharmacie en Ligne
-
+📘 Cahier des Charges : Application ParaCare – Parapharmacie en Ligne
 1. 🧾 Contexte du projet
 
 Dans un contexte où le commerce en ligne connaît une croissance importante, les utilisateurs recherchent de plus en plus des solutions simples et rapides pour acheter des produits de parapharmacie (soins de la peau, beauté, hygiène, bien-être et vitamines).
 
 Cependant, de nombreuses boutiques physiques ne disposent pas encore d’une plateforme digitale centralisée permettant de gérer efficacement leurs produits, commandes et clients.
 
-Ce projet vise donc à développer une application web de parapharmacie en ligne permettant de digitaliser la vente, d’améliorer l’expérience utilisateur et d’optimiser la gestion administrative et commerciale.
+Ce projet vise donc à développer une application web ParaCare – Parapharmacie en Ligne permettant de digitaliser la vente, d’améliorer l’expérience utilisateur et d’optimiser la gestion administrative et commerciale.
 
 2. 🎯 Objectifs du projet
 
-L’objectif principal de ce projet est de développer une application web de parapharmacie en ligne destinée aux utilisateurs et aux administrateurs afin de :
+L’objectif principal de ce projet est de développer une application web ParaCare – Parapharmacie en Ligne destinée aux utilisateurs et aux administrateurs afin de :
 
 Faciliter l’achat en ligne de produits de parapharmacie (skincare, hygiene, beauté, vitamines…)
 Centraliser la gestion des produits, commandes et utilisateurs
@@ -32,9 +31,7 @@ Gérer les catégories
 Gérer les commandes clients
 Gérer les utilisateurs
 Consulter les statistiques et rapports
-
 4. ⚙️ Fonctionnalités principales
-
 4.1 Gestion des utilisateurs
 Création de comptes clients
 Authentification sécurisée (login / register)
@@ -80,9 +77,7 @@ Outils
 VS Code
 Figma (maquettes UI/UX)
 Git / GitHub (gestion de version)
-
 6. 📊 Charte graphique
-
 6.1 Logo
 
 Le logo représente l’univers de la parapharmacie et du bien-être.
@@ -122,6 +117,6 @@ Utilisation d’une architecture MVC
 Gestion sécurisée des sessions
 Optimisation des performances
 
-10. 📌 Conclusion
+9. 📌 Conclusion
 
-Ce projet de parapharmacie en ligne vise à développer une plateforme moderne permettant la vente de produits de soins et de bien-être en ligne. Il offre une gestion complète des produits, des commandes et des utilisateurs tout en garantissant une expérience utilisateur simple, rapide et sécurisée grâce à un système centralisé et des outils de visualisation avancés.
+Ce projet ParaCare – Parapharmacie en Ligne vise à développer une plateforme moderne permettant la vente de produits de soins et de bien-être en ligne. Il offre une gestion complète des produits, des commandes et des utilisateurs tout en garantissant une expérience utilisateur simple, rapide et sécurisée grâce à un système centralisé et des outils de visualisation avancés.
