@@ -24,6 +24,7 @@ Définition de la charte graphique (couleurs, logo, typographie)
 Cahier des charges validé
 Base de données conçue
 Maquettes des interfaces prêtes
+
 🟨 Phase 2 : Développement Front-end (1 semaine)
 
 Cette phase concerne la création de l’interface utilisateur.
@@ -41,6 +42,7 @@ Ajout d’interactivité avec JavaScript
 Création d’un design responsive (mobile, tablette, desktop)
 🎯 Résultat attendu :
 Interface utilisateur fonctionnelle et moderne
+
 🟩 Phase 3 : Développement Back-end (1 semaine)
 
 Cette phase est dédiée à la logique du système et à la base de données.
@@ -55,6 +57,7 @@ Gestion des commandes
 Mise en place des sessions utilisateurs
 🎯 Résultat attendu :
 Site dynamique connecté à la base de données
+
 🟧 Phase 4 : Dashboard Admin + Statistiques (3 à 4 jours)
 
 Cette phase est dédiée à l’espace administrateur.
@@ -71,6 +74,7 @@ nombre d’utilisateurs
 Intégration de Chart.js pour les graphiques
 🎯 Résultat attendu :
 Dashboard fonctionnel avec graphiques interactifs
+
 🟥 Phase 5 : Tests et Correction (3 à 4 jours)
 
 Cette phase permet de stabiliser le projet.
@@ -83,6 +87,7 @@ Tests de sécurité (sessions, SQL injection)
 Optimisation des performances
 🎯 Résultat attendu :
 Application stable et fonctionnelle
+
 🟪 Phase 6 : Finalisation et Livraison (2 à 3 jours)
 
 Dernière étape avant la soutenance.
