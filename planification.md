@@ -99,18 +99,20 @@ Vérification finale du projet
 Préparation du rapport final
 Création du support de présentation (PowerPoint)
 Préparation à la soutenance orale
+
 🎯 Résultat attendu :
 Projet final prêt pour la soutenance
 
+
 📊 3. Résumé global du planning
 
-Phase	Durée
-Analyse & Conception	1 semaine
-Front-end	1 semaine
-Back-end	1 semaine
-Dashboard & Charts	3–4 jours
-Tests & Correction	3–4 jours
-Finalisation	2–3 jours
+Phase                 	Durée
+Analyse & Conception	  1 semaine
+Front-end	              1 semaine
+Back-end	              1 semaine
+Dashboard & Charts	    3–4 jours
+Tests & Correction	    3–4 jours
+Finalisation	          2–3 jours
 
 👉 Durée totale : environ 1 mois
 
