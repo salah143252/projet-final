@@ -1,16 +1,14 @@
 # 📅 Planification du Projet : ParaCare – Parapharmacie en Ligne
 
----
+## 🧭 1. Méthodologie adoptée
 
-# 🧭 1. Méthodologie adoptée
+Le développement du projet ParaCare – Parapharmacie en Ligne sera réalisé selon une approche structurée basée sur les phases classiques du cycle de développement d’une application web :
 
-Le développement du projet **ParaCare – Parapharmacie en Ligne** sera réalisé selon une approche structurée basée sur les phases classiques du cycle de développement d’une application web :
-
-- Analyse
-- Conception
-- Développement
-- Tests
-- Finalisation
+- Analyse  
+- Conception  
+- Développement  
+- Tests  
+- Finalisation  
 
 Cette organisation permet d’assurer un travail progressif, cohérent et bien maîtrisé dans un délai d’environ un mois.
 
@@ -18,170 +16,180 @@ Cette organisation permet d’assurer un travail progressif, cohérent et bien m
 
 # 📆 2. Découpage du projet
 
----
+## 🟦 Phase 1 : Analyse et Conception
 
-# 🟦 Phase 1 : Analyse et Conception (1 semaine)
+📅 **Du 12/05/2026 au 18/05/2026**
 
 Cette première phase est consacrée à la compréhension du besoin et à la préparation du projet.
 
-## 🔹 Tâches réalisées
+### 🔹 Tâches réalisées
 
-- Analyse du sujet et définition des objectifs
-- Étude des besoins fonctionnels et techniques
-- Rédaction du cahier des charges ParaCare
-- Définition des fonctionnalités principales
+- Analyse du sujet et définition des objectifs  
+- Étude des besoins fonctionnels et techniques  
+- Rédaction du cahier des charges ParaCare  
+- Définition des fonctionnalités principales  
 - Conception de la base de données :
-  - users
-  - produits
-  - commandes
-  - catégories
-- Réalisation des maquettes UI/UX (Figma ou papier)
+  - users  
+  - produits  
+  - commandes  
+  - catégories  
+- Réalisation des maquettes UI/UX (Figma ou papier)  
 - Définition de la charte graphique :
-  - couleurs
-  - logo
-  - typographie
+  - couleurs  
+  - logo  
+  - typographie  
 
-## 🎯 Résultat attendu
+### 🎯 Résultat attendu
 
-- Cahier des charges validé
-- Base de données conçue
-- Maquettes des interfaces prêtes
+- Cahier des charges validé  
+- Base de données conçue  
+- Maquettes des interfaces prêtes  
 
 ---
 
-# 🟨 Phase 2 : Développement Front-end (1 semaine)
+## 🟨 Phase 2 : Développement Front-end
+
+📅 **Du 19/05/2026 au 25/05/2026**
 
 Cette phase concerne la création de l’interface utilisateur.
 
-## 🔹 Tâches réalisées
+### 🔹 Tâches réalisées
 
 - Création des pages HTML :
-  - Accueil
-  - Produits
-  - Détail produit
-  - Panier
-  - Login / Register
-- Mise en place du design avec CSS
-- Intégration de Bootstrap (optionnel)
-- Ajout d’interactivité avec JavaScript
+  - Accueil  
+  - Produits  
+  - Détail produit  
+  - Panier  
+  - Login / Register  
+- Mise en place du design avec CSS  
+- Intégration de Bootstrap (optionnel)  
+- Ajout d’interactivité avec JavaScript  
 - Création d’un design responsive :
-  - Mobile
-  - Tablette
-  - Desktop
+  - Mobile  
+  - Tablette  
+  - Desktop  
 
-## 🎯 Résultat attendu
+### 🎯 Résultat attendu
 
-- Interface utilisateur fonctionnelle et moderne
+Interface utilisateur fonctionnelle et moderne.
 
 ---
 
-# 🟩 Phase 3 : Développement Back-end (1 semaine)
+## 🟩 Phase 3 : Développement Back-end
+
+📅 **Du 26/05/2026 au 01/06/2026**
 
 Cette phase est dédiée à la logique du système et à la base de données.
 
-## 🔹 Tâches réalisées
+### 🔹 Tâches réalisées
 
-- Mise en place de la base de données MySQL
-- Connexion PHP avec PDO
+- Mise en place de la base de données MySQL  
+- Connexion PHP avec PDO  
 - Développement du système d’authentification :
-  - Login
-  - Register
-- Gestion des produits (CRUD)
+  - Login  
+  - Register  
+- Gestion des produits (CRUD)  
 - Gestion du panier :
-  - ajout
-  - suppression
-  - calcul du total
-- Gestion des commandes
-- Mise en place des sessions utilisateurs
+  - ajout  
+  - suppression  
+  - calcul du total  
+- Gestion des commandes  
+- Mise en place des sessions utilisateurs  
 
-## 🎯 Résultat attendu
+### 🎯 Résultat attendu
 
-- Site dynamique connecté à la base de données
+Site dynamique connecté à la base de données.
 
 ---
 
-# 🟧 Phase 4 : Dashboard Admin + Statistiques (3 à 4 jours)
+## 🟧 Phase 4 : Dashboard Admin + Statistiques
+
+📅 **Du 02/06/2026 au 05/06/2026**
 
 Cette phase est dédiée à l’espace administrateur.
 
-## 🔹 Tâches réalisées
+### 🔹 Tâches réalisées
 
-- Création du dashboard administrateur
-- Gestion des produits et commandes
-- Gestion des utilisateurs
+- Création du dashboard administrateur  
+- Gestion des produits et commandes  
+- Gestion des utilisateurs  
 - Intégration des statistiques :
-  - ventes mensuelles
-  - produits les plus vendus
-  - nombre d’utilisateurs
-  - état des commandes
-- Intégration de Chart.js pour les graphiques
+  - ventes mensuelles  
+  - produits les plus vendus  
+  - nombre d’utilisateurs  
+  - état des commandes  
+- Intégration de Chart.js pour les graphiques  
 
-## 🎯 Résultat attendu
+### 🎯 Résultat attendu
 
-- Dashboard fonctionnel avec graphiques interactifs
+Dashboard fonctionnel avec graphiques interactifs.
 
 ---
 
-# 🟥 Phase 5 : Tests et Correction (3 à 4 jours)
+## 🟥 Phase 5 : Tests et Correction
+
+📅 **Du 06/06/2026 au 09/06/2026**
 
 Cette phase permet de stabiliser le projet.
 
-## 🔹 Tâches réalisées
+### 🔹 Tâches réalisées
 
-- Test des fonctionnalités principales
-- Correction des bugs
-- Vérification des formulaires
+- Test des fonctionnalités principales  
+- Correction des bugs  
+- Vérification des formulaires  
 - Tests de sécurité :
-  - sessions
-  - injections SQL
-- Optimisation des performances
+  - sessions  
+  - injections SQL  
+- Optimisation des performances  
 
-## 🎯 Résultat attendu
+### 🎯 Résultat attendu
 
-- Application stable et fonctionnelle
+Application stable et fonctionnelle.
 
 ---
 
-# 🟪 Phase 6 : Finalisation et Livraison (2 à 3 jours)
+## 🟪 Phase 6 : Finalisation et Livraison
+
+📅 **Du 10/06/2026 au 12/06/2026**
 
 Dernière étape avant la soutenance.
 
-## 🔹 Tâches réalisées
+### 🔹 Tâches réalisées
 
-- Amélioration du design UI
-- Nettoyage du code
-- Vérification finale du projet
-- Préparation du rapport final
-- Création du support de présentation (PowerPoint)
-- Préparation à la soutenance orale
+- Amélioration du design UI  
+- Nettoyage du code  
+- Vérification finale du projet  
+- Préparation du rapport final  
+- Création du support de présentation (PowerPoint)  
+- Préparation à la soutenance orale  
 
-## 🎯 Résultat attendu
+### 🎯 Résultat attendu
 
-- Projet final prêt pour la soutenance
+Projet final prêt pour la soutenance.
 
 ---
 
 # 📊 3. Résumé global du planning
 
-| Phase | Durée |
-|---|---|
-| Analyse & Conception | 1 semaine |
-| Développement Front-end | 1 semaine |
-| Développement Back-end | 1 semaine |
-| Dashboard & Statistiques | 3 à 4 jours |
-| Tests & Correction | 3 à 4 jours |
-| Finalisation & Livraison | 2 à 3 jours |
+| Phase | Date début | Date fin | Durée |
+|---|---|---|---|
+| Analyse & Conception | 12/05/2026 | 18/05/2026 | 1 semaine |
+| Développement Front-end | 19/05/2026 | 25/05/2026 | 1 semaine |
+| Développement Back-end | 26/05/2026 | 01/06/2026 | 1 semaine |
+| Dashboard & Statistiques | 02/06/2026 | 05/06/2026 | 3 à 4 jours |
+| Tests & Correction | 06/06/2026 | 09/06/2026 | 3 à 4 jours |
+| Finalisation & Livraison | 10/06/2026 | 12/06/2026 | 2 à 3 jours |
 
 ---
 
 # ⏳ Durée totale
 
-👉 Environ **1 mois**
+👉 Du 12 Mai 2026 au 12 Juin 2026 (environ 1 mois)
 
 ---
 
 # 📌 4. Conclusion
 
-La planification du projet **ParaCare – Parapharmacie en Ligne** permet une organisation claire et efficace du travail.
+La planification du projet ParaCare – Parapharmacie en Ligne permet une organisation claire et efficace du travail.
 
 Elle assure une progression logique du développement, depuis l’analyse du besoin jusqu’à la livraison finale d’une application fonctionnelle, sécurisée et prête pour la soutenance.
