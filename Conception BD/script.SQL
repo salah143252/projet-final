@@ -2,7 +2,10 @@
 -- CREATION DE LA BASE DE DONNEES
 -- =====================================================
 
-CREATE DATABASE paracare;
+CREATE DATABASE paracare
+CHARACTER SET utf8mb4
+COLLATE utf8mb4_unicode_ci;
+
 USE paracare;
 
 -- =====================================================
@@ -34,7 +37,8 @@ CREATE TABLE users (
 
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     ON UPDATE CURRENT_TIMESTAMP
-);
+
+) ENGINE=InnoDB;
 
 -- =====================================================
 -- TABLE : CATEGORIES
@@ -52,7 +56,8 @@ CREATE TABLE categories (
     description TEXT,
 
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
+
+) ENGINE=InnoDB;
 
 -- =====================================================
 -- TABLE : PRODUITS
@@ -85,7 +90,8 @@ CREATE TABLE produits (
     REFERENCES categories(id_categorie)
     ON DELETE SET NULL
     ON UPDATE CASCADE
-);
+
+) ENGINE=InnoDB;
 
 -- =====================================================
 -- TABLE : PANIER
@@ -105,7 +111,8 @@ CREATE TABLE panier (
     REFERENCES users(id_user)
     ON DELETE CASCADE
     ON UPDATE CASCADE
-);
+
+) ENGINE=InnoDB;
 
 -- =====================================================
 -- TABLE : PANIER_ITEMS
@@ -135,7 +142,8 @@ CREATE TABLE panier_items (
     REFERENCES produits(id_produit)
     ON DELETE CASCADE
     ON UPDATE CASCADE
-);
+
+) ENGINE=InnoDB;
 
 -- =====================================================
 -- TABLE : COMMANDES
@@ -175,7 +183,8 @@ CREATE TABLE commandes (
     REFERENCES users(id_user)
     ON DELETE CASCADE
     ON UPDATE CASCADE
-);
+
+) ENGINE=InnoDB;
 
 -- =====================================================
 -- TABLE : COMMANDE_DETAILS
@@ -207,7 +216,8 @@ CREATE TABLE commande_details (
     REFERENCES produits(id_produit)
     ON DELETE RESTRICT
     ON UPDATE CASCADE
-);
+
+) ENGINE=InnoDB;
 
 -- =====================================================
 -- INSERTION DES CATEGORIES PAR DEFAUT
@@ -297,3 +307,78 @@ ON commandes(id_user);
 
 CREATE INDEX idx_commande_date
 ON commandes(date_commande);
+
+-- =====================================================
+-- VUE 1 : STATISTIQUES GENERALES DASHBOARD
+-- =====================================================
+
+CREATE VIEW vue_dashboard_stats AS
+
+SELECT
+
+    (SELECT COUNT(*) FROM users WHERE role = 'client')
+    AS total_clients,
+
+    (SELECT COUNT(*) FROM produits)
+    AS total_produits,
+
+    (SELECT COUNT(*) FROM commandes)
+    AS total_commandes,
+
+    (SELECT IFNULL(SUM(total),0) FROM commandes
+     WHERE statut != 'annulee')
+    AS chiffre_affaires;
+
+-- =====================================================
+-- VUE 2 : COMMANDES RECENTES
+-- =====================================================
+
+CREATE VIEW vue_commandes_recentes AS
+
+SELECT
+
+    c.id_commande,
+
+    CONCAT(u.prenom, ' ', u.nom)
+    AS client,
+
+    c.total,
+
+    c.statut,
+
+    c.statut_paiement,
+
+    c.date_commande
+
+FROM commandes c
+
+INNER JOIN users u
+ON c.id_user = u.id_user
+
+ORDER BY c.date_commande DESC;
+
+-- =====================================================
+-- VUE 3 : PRODUITS LES PLUS COMMANDES
+-- =====================================================
+
+CREATE VIEW vue_top_produits AS
+
+SELECT
+
+    p.id_produit,
+
+    p.nom,
+
+    p.image,
+
+    SUM(cd.quantite)
+    AS total_vendus
+
+FROM commande_details cd
+
+INNER JOIN produits p
+ON cd.id_produit = p.id_produit
+
+GROUP BY p.id_produit
+
+ORDER BY total_vendus DESC;
