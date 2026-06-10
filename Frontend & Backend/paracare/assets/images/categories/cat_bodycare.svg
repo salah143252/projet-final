@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 170" width="200" height="170">
+  <defs>
+    <linearGradient id="cg_cat_bodycare" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F5E9;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#C8E6C9;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="170" fill="url(#cg_cat_bodycare)" rx="12"/>
+  
+                <rect x="82" y="55" width="36" height="70" rx="14" fill="#FFFFFF" opacity="0.9"/>
+                <rect x="88" y="42" width="24" height="18" rx="5" fill="#FFFFFF" opacity="0.7"/>
+                <circle cx="100" cy="90" r="12" fill="#27AE60" opacity="0.2"/>
+                <path d="M94 86 Q100 78 106 86 Q103 93 100 96 Q97 93 94 86" fill="#27AE60" opacity="0.35"/>
+                <rect x="80" y="130" width="40" height="5" rx="2" fill="#FFFFFF" opacity="0.5"/>
+            
+  <text x="100" y="158" text-anchor="middle" fill="#555" font-size="12" font-weight="600" font-family="Poppins,Arial,sans-serif">Body Care</text>
+</svg>

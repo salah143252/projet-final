@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" width="500" height="300">
+  <rect width="500" height="300" fill="#f0e6f6"/>
+  <!-- Lavender plant -->
+  <line x1="200" y1="280" x2="200" y2="100" stroke="#27AE60" stroke-width="3"/>
+  <circle cx="190" cy="90" r="8" fill="#9b59b6" opacity="0.6"/>
+  <circle cx="200" cy="80" r="8" fill="#9b59b6" opacity="0.7"/>
+  <circle cx="210" cy="90" r="8" fill="#9b59b6" opacity="0.6"/>
+  <circle cx="195" cy="105" r="6" fill="#9b59b6" opacity="0.5"/>
+  <circle cx="205" cy="100" r="6" fill="#9b59b6" opacity="0.5"/>
+  <!-- Towel -->
+  <rect x="280" y="120" width="140" height="20" rx="3" fill="#E8D5B7"/>
+  <rect x="285" y="145" width="130" height="18" rx="3" fill="#D4C4A8"/>
+  <rect x="290" y="168" width="120" height="16" rx="3" fill="#E8D5B7"/>
+  <!-- Bottle -->
+  <rect x="330" y="60" width="40" height="55" rx="6" fill="#2D9CDB" opacity="0.4"/>
+  <rect x="340" y="48" width="20" height="18" rx="3" fill="#2D9CDB" opacity="0.6"/>
+  <!-- Leaves -->
+  <ellipse cx="160" cy="200" rx="30" ry="15" fill="#27AE60" opacity="0.3" transform="rotate(-30, 160, 200)"/>
+  <ellipse cx="350" cy="220" rx="25" ry="12" fill="#27AE60" opacity="0.3" transform="rotate(20, 350, 220)"/>
+  <!-- Text -->
+  <text x="250" y="260" font-family="Poppins, sans-serif" font-size="16" fill="#666" text-anchor="middle">Soins naturels & bien-être</text>
+</svg>
