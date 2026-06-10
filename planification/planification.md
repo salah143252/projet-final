@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 📅 Planification du Projet : ParaCare – Parapharmacie en Ligne
 
 🧭 1. Méthodologie adoptée
@@ -253,4 +253,3 @@ La planification du projet ParaCare – Parapharmacie en Ligne permet une organi
 
 Elle assure une progression logique du développement, depuis l’analyse du besoin jusqu’à la livraison finale d’une application fonctionnelle, sécurisée et prête pour la soutenance.
 
->>>>>>> 518817f57390ba165d7f1432ac274f1c2f9dcf79
